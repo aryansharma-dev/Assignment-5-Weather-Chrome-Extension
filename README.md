@@ -1,40 +1,37 @@
 # Weather Chrome Extension
 
-A lightweight and production-ready **Chrome Extension** that provides real-time weather information based on the user’s current location. The extension is built using modern **JavaScript (ES6+)**, follows **Chrome Manifest V3**, and integrates with the **OpenWeatherMap API** to deliver accurate weather data in a clean and minimal user interface.
+This project is a lightweight Chrome Extension that displays real-time weather information based on the user’s current location.
+
+The extension is implemented using modern JavaScript (ES6+), follows Chrome Extension Manifest V3 specifications, and consumes the OpenWeatherMap REST API. The goal of this project is to demonstrate practical understanding of browser extension architecture, asynchronous programming, and external API integration.
 
 ---
 
-## Overview
+## Description
 
-This project was developed as part of an academic assignment to demonstrate practical understanding of:
-- Chrome Extension architecture
-- API integration
-- Asynchronous JavaScript
-- User-centric UI design
+The extension retrieves the user’s geographical location using the browser’s Geolocation API and fetches corresponding weather data from the OpenWeatherMap service. The result is presented in a minimal popup interface, allowing users to quickly check current weather conditions without leaving the browser.
 
-The extension fetches live weather data using geolocation and displays essential information directly in the browser popup.
+This project was developed as part of an academic assignment and focuses on correctness, clarity, and adherence to platform constraints.
 
 ---
 
-## Key Features
+## Features
 
-- Real-time weather data based on user location
-- Integration with OpenWeatherMap REST API
-- Celsius (°C) and Fahrenheit (°F) unit support
-- Clean and responsive popup UI
-- Async/Await based API handling
-- Error handling for location and network issues
-- Built using Chrome Extension **Manifest V3**
+- Fetches real-time weather data using user location
+- Integrates with OpenWeatherMap REST API
+- Supports temperature units in Celsius (°C) and Fahrenheit (°F)
+- Uses asynchronous JavaScript (Async/Await) for API calls
+- Handles location permission and network-related errors
+- Built using Chrome Extension Manifest V3
 
 ---
 
 ## Technology Stack
 
-- **JavaScript (ES6+)**
-- **HTML5**
-- **CSS3**
-- **OpenWeatherMap API**
-- **Chrome Extensions (Manifest V3)**
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- OpenWeatherMap API
+- Chrome Extensions (Manifest V3)
 
 ---
 
@@ -44,6 +41,21 @@ The extension fetches live weather data using geolocation and displays essential
 Weather-Chrome-Extension/
 │
 ├── manifest.json        # Chrome extension configuration
-├── popup.html           # Extension popup UI
-├── popup.js             # Core logic & API integration
-└── styles.css           # UI styling
+├── popup.html           # Popup user interface
+
+---
+
+👤 Author
+
+Aryan Sharma
+
+B.Tech (Computer Science Engineering), AKTU
+
+Founder & Developer – TinyMillion
+
+GitHub: https://github.com/aryansharma-dev
+
+LinkedIn: https://www.linkedin.com/in/aryan-shxrma
+├── popup.js             # Core logic and API integration
+├── styles.css           # Styling for the popup
+└── README.md            # Documentation
